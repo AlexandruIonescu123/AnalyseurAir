@@ -1,0 +1,47 @@
+	# Cahier de suivi
+	
+	* 11 avril 2021
+	
+	Brainstorming pour trouver une idée de projet. Je voudrais quelque chose d'assez simple, en lien avec la domotique / objets "smart" pour une maison. 
+	
+	* 13 avril 2021
+	
+	J'ai choisi finalement de créer un système qui mesure la quantité de poussière dans l'air ambiant, avec température et humidité accessoirement.
+	L'idéal serait de le faire communiquer avec mon téléphone portable (je pense notamment à Cayenne l'appli).
+	Maintenant il faut juste attendre que les composants que j'ai commandés (carte Arduino, capteurs digitaux) arrivent.
+	
+	* 18 avril 2021
+	
+	J'ai enfin tout le matériel à disposition. Pour l'instant j'essaie de faire marcher un capteur à la fois, puis je les mettrai ensemble.
+	Eventuellement sur une breadboard si nécessaire.
+	
+	* 19 avril 2021
+	
+	Le capteur de température et humidité (DHT22) est facile à utiliser, pas besoin d'un code compliqué. 
+	Pour le capteur de particules par contre, j'ai cherché sur des forums et je trouve des codes différents, et pas tous fonctionnent
+	comme je le souhaite. Je vais essayer d'écrire un code moi-même en me guidant d'après Internet.
+	
+	Update du soir : ça marche bien.
+	
+	
+	* 20 avril 2021
+	
+	Les capteurs fonctionnent bien ensemble, j'ai joué un peu avec les paramètres. 
+	Pour la prochaine fois, je vais m'attaquer à la partie LoRa.
+	
+	* 30 avril 2021
+	
+	Après n essais de connecter mon device sur LoRa, fatalité : je me suis rendu compte que j'ai besoin d'une gateway proche de moi.
+	A partir de maintenant, je dois travailler sur ce projet à la fac.
+	
+	* 13 avril 2021
+	
+	C'est férié aujourd'hui, j'ai oublié. La bonne chose c'est que j'arrive à me connecter sur LoRa même si je suis pas exactement sur le campus.
+	Comme je le pensais, mon objet ne fonctionne que sur le campus de la fac, à proximité de la gateway.
+	Je comprends que le but de ce projet est de travailler avec le protocole LoRaWAN, mais je me demande si un protocole WiFi serait plus approprié.
+	Ceci dit, maintenant je dois enregistrer mon device sur Cayenne.
+	
+	* 18 avril 2021
+	
+	Pour une raison ou autre, mon device n'envoie pas les données sur Cayenne. 
+	Ce n'est pas très grave, puisque l'appli était juste censée rapporter un côté plus "user friendly" avec son interface facile à lire.
